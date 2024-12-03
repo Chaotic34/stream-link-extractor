@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Link Extractor",
+    "version": "1.0",
+    "description": "Extract all website links from a selected container.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_title": "Link Extractor",
+      "default_popup": "popup.html"
+    }
+  }
+  
